@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 
-function SnowboardCard(brand, model, image, terrain, size, shape) {
+function SnowboardCard({brand, model, image, terrain, size, shape}) {
     const [mainCard, setMainCard] = useState(true);
 
 }
