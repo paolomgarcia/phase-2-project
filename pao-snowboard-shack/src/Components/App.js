@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import SnowboardPage from "src/Components/SnowboardPage.js";
+import Header from 'src/Components/Header.js';
+import { Routes, Route } from "react-router-dom";
+
 
 function App() {
+  const [snowboards, setSnowboards] = useState([]);
+
+ useEffect(() => {
+  fetch("https://localhost:8001/snowboards")
+      .then((res) => res.json())
+      .then((data) => setSnowboards(data))
+ }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="App">
+      <div id="page">
+        <Header />
+          <Routes>
+{/* home page */}
+            <Route path="/" element={
+              <SnowboardPage snowboards={snowboards}/>
+            } />
+{/* add snowboard form */}
+            <Route path="/addsnowboard" element={
+              <AddForm snowboards={snowboards}/>
+            } />
+{/* about us  */}
+            <Route path="/aboutus" element={
+              <AboutUs snowboards={snowboards}/>
+            } />
+          </Routes>
+      </div>
     </div>
   );
 }
