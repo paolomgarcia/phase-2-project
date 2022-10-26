@@ -1,7 +1,9 @@
 import React from 'react';
-import SnowboardCard from 'src/Components/SnowboardCard.js'
+import SnowboardCard from './SnowboardCard'
+import { Card } from "semantic-ui-react";
 
 function SnowboardCollection({snowboards}) {
+
     const snowboardCards = snowboards.map(snowboard => (
         <SnowboardCard
           key={snowboard.id}
