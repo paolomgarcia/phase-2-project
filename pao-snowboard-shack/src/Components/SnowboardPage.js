@@ -8,13 +8,16 @@ function SnowboardPage() {
   const [search, setSearch] = useState("")
 
  useEffect(() => {
-  fetch("https://localhost:8001/snowboards")
+  fetch("http://localhost:8001/snowboards")
       .then((res) => res.json())
       .then((data) => setSnowboards(data))
  }, [""]);
 
  let filtered = snowboards.filter((snowboard) =>
-snowboard.name.toLowerCase().includes(search.toLowerCase())
+snowboard.brand.toLowerCase().includes(search.toLowerCase())
+|| snowboard.model.toLowerCase().includes(search.toLowerCase())
+|| snowboard.terrain.toLowerCase().includes(search.toLowerCase())
+|| snowboard.size.toLowerCase().includes(search.toLowerCase())
  )
 
  return (

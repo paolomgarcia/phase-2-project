@@ -1,5 +1,10 @@
 import React from "react";
 import SnowboardPage from "./SnowboardPage";
+import AddForm from "./AddForm";
+import AboutUs from "./AboutUs";
+import '../App.css'
+
+
 import Header from './Header';
 import { Router, Routes, Route } from "react-router-dom";
 
@@ -9,26 +14,23 @@ function App() {
   return (
     <div className="App">
       <div id="page">
-        <Router>
+        {/* <Router> */}
           <Header />
-          <Routes>
-
+           <Routes>
 {/* home page */}
-            <Route path="/" element={
+            <Route exact path="/" element={
               <SnowboardPage/>
             } />
 {/* add snowboard form */}
-            {/* <Route path="/addsnowboard" element={
-              <AddForm snowboards={snowboards}/>
-            } /> */}
+            <Route path="/addsnowboard" element={
+              <AddForm />
+            } />
 {/* about us  */}
-            {/* <Route path="/aboutus" element={
-              <AboutUs snowboards={snowboards}/>
-            } /> */}
+            <Route path="/aboutus" element={
+              <AboutUs />
+            } />
           </Routes>
-        </Router>
-
-          {/* <SnowboardPage /> */}
+        {/* </Router> */}
       </div>
     </div>
   );

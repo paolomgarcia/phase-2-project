@@ -7,24 +7,24 @@ function Header() {
 
     return (
         <header>
-            <h1>
+            <h1 className="header">
                 Pao's Snowboard Shack 🏂
             </h1>
             <nav>
-                <div classname="navbar">
+                <div className="navbar">
                     <button>
-                        <NavLink className="button" exact to ="/">
-                            H0ME
+                        <NavLink className="button"  to="/">
+                            HOME
                         </NavLink>
                     </button>
                     <button>
-                        <NavLink className="button" exact to ="/addsnowboard">
-                            ADD SN0WB0ARDS
+                        <NavLink className="button"  to="/addsnowboard">
+                            ADD SNOWBOARDS
                         </NavLink>
                     </button>
                     <button>
-                        <NavLink className="button" exact to ="/aboutus">
-                            AB0UT US
+                        <NavLink className="button"  to="/aboutus">
+                            ABOUT US
                         </NavLink>
                     </button>
                 </div>

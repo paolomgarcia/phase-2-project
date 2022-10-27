@@ -9,10 +9,11 @@ function SnowboardCollection({snowboards}) {
           key={snowboard.id}
           brand={snowboard.brand}
           model={snowboard.model}
-          images={snowboard.image}
+          image={snowboard.image}
           terrain={snowboard.terrain}
           size={snowboard.size}
           shape={snowboard.shape}
+          price={snowboard.price}
           />
       ))
 

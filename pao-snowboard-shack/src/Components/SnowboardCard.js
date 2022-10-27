@@ -8,10 +8,10 @@ function SnowboardCard({brand, model, image, terrain, size, shape, price}) {
 
     function frontCard() {
         return (
-            <ul classname="frontCard">
+            <ul className="frontCard">
                 <div className="board" />
                     <p>BRAND: {brand}</p>
-                    <p>M0DEL: {model}</p>
+                    <p>MODEL: {model}</p>
                 <img className="card-image" src={image.main} />
             </ul>
         )
@@ -26,8 +26,9 @@ function SnowboardCard({brand, model, image, terrain, size, shape, price}) {
                     <p>SHAPE: {shape}</p>
                 </div>
                 <div className="price">
-                    <p>PRICE:﹩{price}</p>
+                    <p>PRICE:${price}</p>
                 </div>
+                <img className="card-image" src={image.backup} />
             </ul>
         )
     }

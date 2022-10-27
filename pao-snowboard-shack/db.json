@@ -10,7 +10,8 @@
             },
             "terrain":"All Mountain",
             "size":"148",
-            "shape":"True Twin"
+            "shape":"True Twin",
+            "price":"569.99"
         },
         {
             "id": 2,
@@ -22,7 +23,8 @@
             },
             "terrain":"All Mountain",
             "size":"151",
-            "shape":"Directional"
+            "shape":"Directional",
+            "price":"569.99"
         },
         {
             "id": 3,
@@ -34,7 +36,8 @@
             },
             "terrain":"All Mountain",
             "size":"144",
-            "shape":"Directional Twin"
+            "shape":"Directional Twin",
+            "price":"569.99"
         },
         {
             "id": 4,
@@ -46,7 +49,8 @@
             },
             "terrain":"All Mountain",
             "size":"156",
-            "shape":"Directional Twin"
+            "shape":"Directional Twin",
+            "price":"569.99"
         },
         {
             "id": 5,
@@ -58,7 +62,8 @@
             },
             "terrain":"All Mountain",
             "size":"148",
-            "shape":"True Twin"
+            "shape":"True Twin",
+            "price":"569.99"
         },
         {
             "id": 6,
@@ -70,7 +75,8 @@
             },
             "terrain":"All Mountain",
             "size":"151",
-            "shape":"Directional"
+            "shape":"Directional",
+            "price":"569.99"
         },
         {
             "id": 7,
@@ -82,7 +88,8 @@
             },
             "terrain":"All Mountain",
             "size":"144",
-            "shape":"Directional Twin"
+            "shape":"Directional Twin",
+            "price":"569.99"
         },
         {
             "id": 8,
@@ -94,7 +101,8 @@
             },
             "terrain":"All Mountain",
             "size":"156",
-            "shape":"Directional Twin"
+            "shape":"Directional Twin",
+            "price":"569.99"
         },
         {
             "id": 9,
@@ -106,7 +114,8 @@
             },
             "terrain":"All Mountain",
             "size":"148",
-            "shape":"True Twin"
+            "shape":"True Twin",
+            "price":"569.99"
         },
         {
             "id": 10,
@@ -118,7 +127,8 @@
             },
             "terrain":"All Mountain",
             "size":"151",
-            "shape":"Directional"
+            "shape":"Directional",
+            "price":"569.99"
         },
         {
             "id": 11,
@@ -130,7 +140,8 @@
             },
             "terrain":"All Mountain",
             "size":"144",
-            "shape":"Directional Twin"
+            "shape":"Directional Twin",
+            "price":"569.99"
         },
         {
             "id": 12,
@@ -142,7 +153,8 @@
             },
             "terrain":"All Mountain",
             "size":"156",
-            "shape":"Directional Twin"
+            "shape":"Directional Twin",
+            "price":"569.99"
         },
         {
             "id": 13,
@@ -154,7 +166,8 @@
             },
             "terrain":"All Mountain",
             "size":"148",
-            "shape":"True Twin"
+            "shape":"True Twin",
+            "price":"569.99"
         },
         {
             "id": 14,
@@ -166,7 +179,8 @@
             },
             "terrain":"All Mountain",
             "size":"151",
-            "shape":"Directional"
+            "shape":"Directional",
+            "price":"569.99"
         },
         {
             "id": 15,
@@ -178,7 +192,8 @@
             },
             "terrain":"All Mountain",
             "size":"144",
-            "shape":"Directional Twin"
+            "shape":"Directional Twin",
+            "price":"569.99"
         },
         {
             "id": 16,
@@ -190,7 +205,8 @@
             },
             "terrain":"All Mountain",
             "size":"156",
-            "shape":"Directional Twin"
+            "shape":"Directional Twin",
+            "price":"569.99"
         }
     ]
 }
