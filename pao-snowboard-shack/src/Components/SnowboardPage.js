@@ -21,7 +21,7 @@ snowboard.brand.toLowerCase().includes(search.toLowerCase())
  )
 
  return (
-    <Container>
+    <Container className="container">
       <h1>Snowboard Selection</h1>
       <br />
       <Search setSearch={setSearch}/>

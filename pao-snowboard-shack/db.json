@@ -1,213 +1,225 @@
 {
-    "snowboards": [
-        {
-            "id": 1,
-            "brand": "Rome",
-            "model": "Mechanic",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/181575/719410/clone.jpg",
-                "backup":"https://images.evo.com/imgp/700/181575/719407/clone.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"148",
-            "shape":"True Twin",
-            "price":"569.99"
-        },
-        {
-            "id": 2,
-            "brand": "K2",
-            "model": "Passport",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/221920/945520/k2-passport-snowboard-2023-.jpg",
-                "backup":"https://images.evo.com/imgp/700/221920/945521/k2-passport-snowboard-2023-.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"151",
-            "shape":"Directional",
-            "price":"569.99"
-        },
-        {
-            "id": 3,
-            "brand": "Burton",
-            "model": "Flying V",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/220257/941241/clone.jpg",
-                "backup":"https://images.evo.com/imgp/700/220257/941239/burton-custom-flying-v-snowboard-2023-.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"144",
-            "shape":"Directional Twin",
-            "price":"569.99"
-        },
-        {
-            "id": 4,
-            "brand": "Arbor",
-            "model": "Foundation",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/200880/798757/arbor-foundation-snowboard-2023-.jpg",
-                "backup":"https://images.evo.com/imgp/700/200880/798761/arbor-foundation-snowboard-2023-.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"156",
-            "shape":"Directional Twin",
-            "price":"569.99"
-        },
-        {
-            "id": 5,
-            "brand": "Rome",
-            "model": "Mechanic",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/181575/719410/clone.jpg",
-                "backup":"https://images.evo.com/imgp/700/181575/719407/clone.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"148",
-            "shape":"True Twin",
-            "price":"569.99"
-        },
-        {
-            "id": 6,
-            "brand": "K2",
-            "model": "Passport",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/221920/945520/k2-passport-snowboard-2023-.jpg",
-                "backup":"https://images.evo.com/imgp/700/221920/945521/k2-passport-snowboard-2023-.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"151",
-            "shape":"Directional",
-            "price":"569.99"
-        },
-        {
-            "id": 7,
-            "brand": "Burton",
-            "model": "Flying V",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/220257/941241/clone.jpg",
-                "backup":"https://images.evo.com/imgp/700/220257/941239/burton-custom-flying-v-snowboard-2023-.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"144",
-            "shape":"Directional Twin",
-            "price":"569.99"
-        },
-        {
-            "id": 8,
-            "brand": "Arbor",
-            "model": "Foundation",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/200880/798757/arbor-foundation-snowboard-2023-.jpg",
-                "backup":"https://images.evo.com/imgp/700/200880/798761/arbor-foundation-snowboard-2023-.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"156",
-            "shape":"Directional Twin",
-            "price":"569.99"
-        },
-        {
-            "id": 9,
-            "brand": "Rome",
-            "model": "Mechanic",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/181575/719410/clone.jpg",
-                "backup":"https://images.evo.com/imgp/700/181575/719407/clone.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"148",
-            "shape":"True Twin",
-            "price":"569.99"
-        },
-        {
-            "id": 10,
-            "brand": "K2",
-            "model": "Passport",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/221920/945520/k2-passport-snowboard-2023-.jpg",
-                "backup":"https://images.evo.com/imgp/700/221920/945521/k2-passport-snowboard-2023-.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"151",
-            "shape":"Directional",
-            "price":"569.99"
-        },
-        {
-            "id": 11,
-            "brand": "Burton",
-            "model": "Flying V",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/220257/941241/clone.jpg",
-                "backup":"https://images.evo.com/imgp/700/220257/941239/burton-custom-flying-v-snowboard-2023-.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"144",
-            "shape":"Directional Twin",
-            "price":"569.99"
-        },
-        {
-            "id": 12,
-            "brand": "Arbor",
-            "model": "Foundation",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/200880/798757/arbor-foundation-snowboard-2023-.jpg",
-                "backup":"https://images.evo.com/imgp/700/200880/798761/arbor-foundation-snowboard-2023-.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"156",
-            "shape":"Directional Twin",
-            "price":"569.99"
-        },
-        {
-            "id": 13,
-            "brand": "Rome",
-            "model": "Mechanic",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/181575/719410/clone.jpg",
-                "backup":"https://images.evo.com/imgp/700/181575/719407/clone.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"148",
-            "shape":"True Twin",
-            "price":"569.99"
-        },
-        {
-            "id": 14,
-            "brand": "K2",
-            "model": "Passport",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/221920/945520/k2-passport-snowboard-2023-.jpg",
-                "backup":"https://images.evo.com/imgp/700/221920/945521/k2-passport-snowboard-2023-.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"151",
-            "shape":"Directional",
-            "price":"569.99"
-        },
-        {
-            "id": 15,
-            "brand": "Burton",
-            "model": "Flying V",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/220257/941241/clone.jpg",
-                "backup":"https://images.evo.com/imgp/700/220257/941239/burton-custom-flying-v-snowboard-2023-.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"144",
-            "shape":"Directional Twin",
-            "price":"569.99"
-        },
-        {
-            "id": 16,
-            "brand": "Arbor",
-            "model": "Foundation",
-            "image":{
-                "main":"https://images.evo.com/imgp/700/200880/798757/arbor-foundation-snowboard-2023-.jpg",
-                "backup":"https://images.evo.com/imgp/700/200880/798761/arbor-foundation-snowboard-2023-.jpg"
-            },
-            "terrain":"All Mountain",
-            "size":"156",
-            "shape":"Directional Twin",
-            "price":"569.99"
-        }
-    ]
+  "snowboards": [
+    {
+      "id": 1,
+      "brand": "Rome",
+      "model": "Mechanic",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/181575/719410/clone.jpg",
+        "backup": "https://images.evo.com/imgp/700/181575/719407/clone.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "148",
+      "shape": "True Twin",
+      "price": "569.99"
+    },
+    {
+      "id": 2,
+      "brand": "K2",
+      "model": "Passport",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/221920/945520/k2-passport-snowboard-2023-.jpg",
+        "backup": "https://images.evo.com/imgp/700/221920/945521/k2-passport-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "151",
+      "shape": "Directional",
+      "price": "569.99"
+    },
+    {
+      "id": 3,
+      "brand": "Burton",
+      "model": "Flying V",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/220257/941241/clone.jpg",
+        "backup": "https://images.evo.com/imgp/700/220257/941239/burton-custom-flying-v-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "144",
+      "shape": "Directional Twin",
+      "price": "569.99"
+    },
+    {
+      "id": 4,
+      "brand": "Arbor",
+      "model": "Foundation",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/200880/798757/arbor-foundation-snowboard-2023-.jpg",
+        "backup": "https://images.evo.com/imgp/700/200880/798761/arbor-foundation-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "156",
+      "shape": "Directional Twin",
+      "price": "569.99"
+    },
+    {
+      "id": 5,
+      "brand": "Rome",
+      "model": "Mechanic",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/181575/719410/clone.jpg",
+        "backup": "https://images.evo.com/imgp/700/181575/719407/clone.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "148",
+      "shape": "True Twin",
+      "price": "569.99"
+    },
+    {
+      "id": 6,
+      "brand": "K2",
+      "model": "Passport",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/221920/945520/k2-passport-snowboard-2023-.jpg",
+        "backup": "https://images.evo.com/imgp/700/221920/945521/k2-passport-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "151",
+      "shape": "Directional",
+      "price": "569.99"
+    },
+    {
+      "id": 7,
+      "brand": "Burton",
+      "model": "Flying V",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/220257/941241/clone.jpg",
+        "backup": "https://images.evo.com/imgp/700/220257/941239/burton-custom-flying-v-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "144",
+      "shape": "Directional Twin",
+      "price": "569.99"
+    },
+    {
+      "id": 8,
+      "brand": "Arbor",
+      "model": "Foundation",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/200880/798757/arbor-foundation-snowboard-2023-.jpg",
+        "backup": "https://images.evo.com/imgp/700/200880/798761/arbor-foundation-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "156",
+      "shape": "Directional Twin",
+      "price": "569.99"
+    },
+    {
+      "id": 9,
+      "brand": "Rome",
+      "model": "Mechanic",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/181575/719410/clone.jpg",
+        "backup": "https://images.evo.com/imgp/700/181575/719407/clone.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "148",
+      "shape": "True Twin",
+      "price": "569.99"
+    },
+    {
+      "id": 10,
+      "brand": "K2",
+      "model": "Passport",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/221920/945520/k2-passport-snowboard-2023-.jpg",
+        "backup": "https://images.evo.com/imgp/700/221920/945521/k2-passport-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "151",
+      "shape": "Directional",
+      "price": "569.99"
+    },
+    {
+      "id": 11,
+      "brand": "Burton",
+      "model": "Flying V",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/220257/941241/clone.jpg",
+        "backup": "https://images.evo.com/imgp/700/220257/941239/burton-custom-flying-v-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "144",
+      "shape": "Directional Twin",
+      "price": "569.99"
+    },
+    {
+      "id": 12,
+      "brand": "Arbor",
+      "model": "Foundation",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/200880/798757/arbor-foundation-snowboard-2023-.jpg",
+        "backup": "https://images.evo.com/imgp/700/200880/798761/arbor-foundation-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "156",
+      "shape": "Directional Twin",
+      "price": "569.99"
+    },
+    {
+      "id": 13,
+      "brand": "Rome",
+      "model": "Mechanic",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/181575/719410/clone.jpg",
+        "backup": "https://images.evo.com/imgp/700/181575/719407/clone.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "148",
+      "shape": "True Twin",
+      "price": "569.99"
+    },
+    {
+      "id": 14,
+      "brand": "K2",
+      "model": "Passport",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/221920/945520/k2-passport-snowboard-2023-.jpg",
+        "backup": "https://images.evo.com/imgp/700/221920/945521/k2-passport-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "151",
+      "shape": "Directional",
+      "price": "569.99"
+    },
+    {
+      "id": 15,
+      "brand": "Burton",
+      "model": "Flying V",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/220257/941241/clone.jpg",
+        "backup": "https://images.evo.com/imgp/700/220257/941239/burton-custom-flying-v-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "144",
+      "shape": "Directional Twin",
+      "price": "569.99"
+    },
+    {
+      "id": 16,
+      "brand": "Arbor",
+      "model": "Foundation",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/200880/798757/arbor-foundation-snowboard-2023-.jpg",
+        "backup": "https://images.evo.com/imgp/700/200880/798761/arbor-foundation-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "156",
+      "shape": "Directional Twin",
+      "price": "569.99"
+    },
+    {
+      "brand": "132",
+      "model": "",
+      "images": {
+        "main": "123",
+        "backup": "123"
+      },
+      "terrain": "123",
+      "size": "",
+      "shape": "123",
+      "price": "123",
+      "id": 17
+    }
+  ]
 }
-

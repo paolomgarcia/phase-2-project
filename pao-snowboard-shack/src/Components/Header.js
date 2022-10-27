@@ -6,12 +6,12 @@ import { NavLink } from "react-router-dom";
 function Header() {
 
     return (
-        <header>
-            <h1 className="header">
+        <div className="header">
+            <h1 className="logo">
                 Pao's Snowboard Shack 🏂
             </h1>
             <nav>
-                <div className="navbar">
+                <div className="header-right">
                     <button>
                         <NavLink className="button"  to="/">
                             HOME
@@ -29,7 +29,8 @@ function Header() {
                     </button>
                 </div>
             </nav>
-        </header>
+            </div>
+
 )
 }
 

@@ -8,7 +8,7 @@ function SnowboardCard({brand, model, image, terrain, size, shape, price}) {
 
     function frontCard() {
         return (
-            <ul className="frontCard">
+            <ul className="card">
                 <div className="board" />
                     <p>BRAND: {brand}</p>
                     <p>MODEL: {model}</p>
@@ -19,7 +19,7 @@ function SnowboardCard({brand, model, image, terrain, size, shape, price}) {
 
     function backCard() {
         return (
-            <ul className="backCard">
+            <ul className="card">
                 <div className="details">
                     <p>TERRAIN: {terrain}</p>
                     <p>SIZE: {size}</p>
