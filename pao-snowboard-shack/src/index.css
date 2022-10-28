@@ -1,0 +1,12 @@
+body {
+    min-height: 2000px;
+  }
+  body > .ui.container {
+    margin-top: 6em;
+  }
+  .offices {
+    color: #fff;
+  }
+  .flags a {
+    padding: .012em;
+  }

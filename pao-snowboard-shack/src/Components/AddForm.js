@@ -31,7 +31,7 @@ function AddForm({onAdd}) {
 })
   .then((r) => r.json())
   .then((setSnowboards) => onAdd(setSnowboards))
-  //formElement.reset();
+  
 }
 
 return (

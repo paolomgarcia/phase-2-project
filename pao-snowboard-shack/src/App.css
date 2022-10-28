@@ -1,11 +1,25 @@
 .card-image {
-    margin: auto;
-    display: flex;
-    height: 50%;
-    width: 50%;
+
+        width: 200px;
+        height: 300px;
+        object-fit: contain;
+
 }
 
+
+
 .App {
+    background-color: #7033c6;
+    color: rgb(248, 248, 248);
+    padding: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    background-image: url("https://images.alphacoders.com/598/598154.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+
+
+
 
   }
+

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Card } from "semantic-ui-react";
+import { Card, Icon, Image } from "semantic-ui-react";
 
 
 function SnowboardCard({brand, model, image, terrain, size, shape, price}) {
@@ -8,28 +8,49 @@ function SnowboardCard({brand, model, image, terrain, size, shape, price}) {
 
     function frontCard() {
         return (
-            <ul className="card">
-                <div className="board" />
-                    <p>BRAND: {brand}</p>
-                    <p>MODEL: {model}</p>
-                <img className="card-image" src={image.main} />
-            </ul>
+            <Card>
+            <Image src={image.main} wrapped ui={false} />
+            <Card.Content>
+              <Card.Header>{brand}</Card.Header>
+              <Card.Meta>
+                <span className='date'>{model}</span>
+              </Card.Meta>
+            </Card.Content>
+            <Card.Content extra>
+              <a>
+                <Icon name='dollar sign' />
+                {price}
+              </a>
+            </Card.Content>
+          </Card>
         )
     }
 
+
+    //proud code
     function backCard() {
         return (
-            <ul className="card">
-                <div className="details">
-                    <p>TERRAIN: {terrain}</p>
-                    <p>SIZE: {size}</p>
-                    <p>SHAPE: {shape}</p>
-                </div>
-                <div className="price">
-                    <p>PRICE:${price}</p>
-                </div>
-                <img className="card-image" src={image.backup} />
-            </ul>
+            <Card>
+            <Image
+            src={image.backup} wrapped ui={false} />
+            <Card.Content>
+              <Card.Header>{brand}</Card.Header>
+              <Card.Meta>
+                <span className='date'>{model}</span>
+              </Card.Meta>
+              <Card.Description>
+                <p>Terrain: {terrain}</p>
+                <p>Size: {size}</p>
+                <p>Shape: {shape}</p>
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              <a>
+                <Icon name='dollar sign' />
+                {price}
+              </a>
+            </Card.Content>
+          </Card>
         )
     }
 
@@ -37,12 +58,12 @@ function SnowboardCard({brand, model, image, terrain, size, shape, price}) {
         setMainCard((mainCard) => !mainCard);
     }
 
+
+
 return (
         <Card>
-        <div className="card" onClick={handleClick}>
-            <div className="container">
+        <div onClick={handleClick}>
                 {mainCard ? frontCard() : backCard()}
-            </div>
         </div>
         </Card>
     );
