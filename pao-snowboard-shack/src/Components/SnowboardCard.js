@@ -27,7 +27,6 @@ function SnowboardCard({brand, model, image, terrain, size, shape, price}) {
     }
 
 
-    //proud code
     function backCard() {
         return (
             <Card className="card">

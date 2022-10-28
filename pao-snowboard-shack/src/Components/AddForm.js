@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Form} from "semantic-ui-react"
 
-function AddForm({onAdd}) {
+function AddForm() {
     const [brand, setBrand] = useState("")
     const [model, setModel] = useState("")
     const [imageMain, setImageMain] = useState("")
@@ -30,9 +30,10 @@ function AddForm({onAdd}) {
     })
 })
   .then((r) => r.json())
-  .then((setSnowboards) => onAdd(setSnowboards))
-  
+  .then((newSnowboard) => handleSubmit(newSnowboard))
+
 }
+
 
 return (
     <div>

@@ -131,7 +131,7 @@
       "price": "449.99"
     },
     {
-      "id": 11,
+      "id": 12,
       "brand": "Burton",
       "model": "Flying V",
       "image": {
@@ -144,7 +144,7 @@
       "price": "529.95"
     },
     {
-      "id": 1,
+      "id": 13,
       "brand": "Rome",
       "model": "Mechanic",
       "image": {
@@ -157,7 +157,7 @@
       "price": "569.99"
     },
     {
-      "id": 2,
+      "id": 14,
       "brand": "K2",
       "model": "Passport",
       "image": {
@@ -170,7 +170,7 @@
       "price": "569.99"
     },
     {
-      "id": 3,
+      "id": 15,
       "brand": "Burton",
       "model": "Flying V",
       "image": {
@@ -183,7 +183,7 @@
       "price": "569.99"
     },
     {
-      "id": 4,
+      "id": 16,
       "brand": "Arbor",
       "model": "Foundation",
       "image": {
@@ -196,7 +196,7 @@
       "price": "549.95"
     },
     {
-      "id": 5,
+      "id": 17,
       "brand": "K2",
       "model": "Excavator",
       "image": {
@@ -209,7 +209,7 @@
       "price": "569.99"
     },
     {
-      "id": 6,
+      "id": 18,
       "brand": "Roxy",
       "model": "Dawn",
       "image": {
@@ -222,7 +222,7 @@
       "price": "299.99"
     },
     {
-      "id": 7,
+      "id": 19,
       "brand": "Burton",
       "model": "Instigator",
       "image": {
@@ -235,7 +235,7 @@
       "price": "439.95"
     },
     {
-      "id": 9,
+      "id": 20,
       "brand": "Arbor",
       "model": "Poparazzi",
       "image": {
@@ -248,7 +248,7 @@
       "price": "449.99"
     },
     {
-      "id": 10,
+      "id": 21,
       "brand": "K2",
       "model": "Afterblack",
       "image": {
@@ -261,7 +261,7 @@
       "price": "459.99"
     },
     {
-      "id": 11,
+      "id": 22,
       "brand": "Capita",
       "model": "Paradise",
       "image": {
@@ -274,17 +274,17 @@
       "price": "449.99"
     },
     {
-      "id": 11,
-      "brand": "Burton",
-      "model": "Flying V",
-      "image": {
-        "main": "https://images.evo.com/imgp/700/196837/844217/burton-process-flying-v-snowboard-2022-.jpg",
-        "backup": "https://images.evo.com/imgp/700/196837/849285/burton-process-flying-v-snowboard-2022-.jpg"
+      "brand": "123",
+      "model": "123",
+      "images": {
+        "main": "123",
+        "backup": ""
       },
-      "terrain": "All-Mountain",
-      "size": "156",
-      "shape": "Directional Twin",
-      "price": "529.95"
+      "terrain": "",
+      "size": "",
+      "shape": "",
+      "price": "",
+      "id": 23
     }
   ]
 }

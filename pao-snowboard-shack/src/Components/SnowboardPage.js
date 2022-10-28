@@ -2,10 +2,13 @@ import React, {useState, useEffect} from 'react';
 import SnowboardCollection from './SnowboardCollection';
 import Search from "./Search";
 import { Container } from "semantic-ui-react";
+import AddForm from "./AddForm";
 
 function SnowboardPage() {
   const [snowboards, setSnowboards] = useState([]);
   const [search, setSearch] = useState("")
+
+
 
  useEffect(() => {
   fetch("http://localhost:8001/snowboards")
@@ -26,7 +29,8 @@ snowboard.brand.toLowerCase().includes(search.toLowerCase())
       <br />
       <Search setSearch={setSearch}/>
       <br />
-      <SnowboardCollection snowboards={filtered} />
+      <SnowboardCollection  snowboards={filtered} />
+      
     </Container>
   );
 }

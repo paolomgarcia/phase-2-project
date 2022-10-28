@@ -3,7 +3,6 @@ import SnowboardPage from "./SnowboardPage";
 import AddForm from "./AddForm";
 import AboutUs from "./AboutUs";
 import '../App.css'
-import '../Header.css'
 import Header from './Header';
 import { Router, Routes, Route } from "react-router-dom";
 
