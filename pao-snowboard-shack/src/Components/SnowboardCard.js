@@ -8,7 +8,7 @@ function SnowboardCard({brand, model, image, terrain, size, shape, price}) {
 
     function frontCard() {
         return (
-            <Card>
+            <Card className="card">
             <Image src={image.main} wrapped ui={false} />
             <Card.Content>
               <Card.Header>{brand}</Card.Header>
@@ -30,7 +30,7 @@ function SnowboardCard({brand, model, image, terrain, size, shape, price}) {
     //proud code
     function backCard() {
         return (
-            <Card>
+            <Card className="card">
             <Image
             src={image.backup} wrapped ui={false} />
             <Card.Content>

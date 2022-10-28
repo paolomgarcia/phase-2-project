@@ -16,10 +16,13 @@
     text-align: center;
     background-image: url("https://images.alphacoders.com/598/598154.jpg");
     background-attachment: fixed;
-    background-repeat: repeat-y;
-
-
+    background-repeat:inherit ;
+    height: 600vh;
 
 
   }
+
+.card {
+    cursor:grab;
+}
 

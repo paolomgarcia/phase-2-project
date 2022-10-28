@@ -17,28 +17,24 @@ function Header() {
 <nav>
     <div className="header-right">
         <button>
-            <NavLink className="button"  to="/">
-                HOME
-            </NavLink>
+            <NavLink to="/">HOME</NavLink>
         </button>
         <button>
-            <NavLink className="button"  to="/addsnowboard">
-                ADD SNOWBOARDS
-            </NavLink>
+            <NavLink to="/addsnowboard">ADD SNOWBOARDS</NavLink>
         </button>
         <button>
-            <NavLink className="button"  to="/aboutus">
-                ABOUT US
-            </NavLink>
+            <NavLink to="/aboutus">ABOUT US</NavLink>
         </button>
     </div>
 </nav>
 </div>
 
 
+
 )
 }
 
 export default Header;
+
 
 

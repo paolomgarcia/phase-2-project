@@ -142,6 +142,149 @@
       "size": "156",
       "shape": "Directional Twin",
       "price": "529.95"
+    },
+    {
+      "id": 1,
+      "brand": "Rome",
+      "model": "Mechanic",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/181575/719410/clone.jpg",
+        "backup": "https://images.evo.com/imgp/700/181575/719407/clone.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "148",
+      "shape": "True Twin",
+      "price": "569.99"
+    },
+    {
+      "id": 2,
+      "brand": "K2",
+      "model": "Passport",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/221920/945520/k2-passport-snowboard-2023-.jpg",
+        "backup": "https://images.evo.com/imgp/700/221920/945521/k2-passport-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "151",
+      "shape": "Directional",
+      "price": "569.99"
+    },
+    {
+      "id": 3,
+      "brand": "Burton",
+      "model": "Flying V",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/220257/941241/clone.jpg",
+        "backup": "https://images.evo.com/imgp/700/220257/941239/burton-custom-flying-v-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "144",
+      "shape": "Directional Twin",
+      "price": "569.99"
+    },
+    {
+      "id": 4,
+      "brand": "Arbor",
+      "model": "Foundation",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/200880/798757/arbor-foundation-snowboard-2023-.jpg",
+        "backup": "https://images.evo.com/imgp/700/221901/909472/k2-excavator-snowboard-2023-.jpg"
+      },
+      "terrain": "Powder",
+      "size": "152",
+      "shape": "TDirectional",
+      "price": "549.95"
+    },
+    {
+      "id": 5,
+      "brand": "K2",
+      "model": "Excavator",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/221901/909470/k2-excavator-snowboard-2023-.jpg",
+        "backup": "https://images.evo.com/imgp/700/221901/909472/k2-excavator-snowboard-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "148",
+      "shape": "True Twin",
+      "price": "569.99"
+    },
+    {
+      "id": 6,
+      "brand": "Roxy",
+      "model": "Dawn",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/208579/825479/roxy-dawn-snowboard-women-s-2022-.jpg",
+        "backup": "https://images.evo.com/imgp/700/208579/825479/roxy-dawn-snowboard-women-s-2022-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "149",
+      "shape": "True Twin",
+      "price": "299.99"
+    },
+    {
+      "id": 7,
+      "brand": "Burton",
+      "model": "Instigator",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/196846/844248/clone.jpg",
+        "backup": "https://images.evo.com/imgp/700/196846/849304/clone.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "149",
+      "shape": "Directional",
+      "price": "439.95"
+    },
+    {
+      "id": 9,
+      "brand": "Arbor",
+      "model": "Poparazzi",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/221365/901292/arbor-poparazzi-rocker-snowboard-women-s-2023-.jpg",
+        "backup": "https://images.evo.com/imgp/700/221365/901297/arbor-poparazzi-rocker-snowboard-women-s-2023-.jpg"
+      },
+      "terrain": "All Mountain",
+      "size": "149",
+      "shape": "Directional Twin",
+      "price": "449.99"
+    },
+    {
+      "id": 10,
+      "brand": "K2",
+      "model": "Afterblack",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/207175/819357/clone.jpg",
+        "backup": "https://images.evo.com/imgp/700/207175/819365/k2-afterblack-snowboard-2022-.jpg"
+      },
+      "terrain": "Freestyle",
+      "size": "149",
+      "shape": "True Twin",
+      "price": "459.99"
+    },
+    {
+      "id": 11,
+      "brand": "Capita",
+      "model": "Paradise",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/220021/912632/capita-paradise-snowboard-women-s-2023-.jpg",
+        "backup": "https://images.evo.com/imgp/700/220021/912663/capita-paradise-snowboard-women-s-2023-.jpg"
+      },
+      "terrain": "Freestyle",
+      "size": "146",
+      "shape": "Directional Twin",
+      "price": "449.99"
+    },
+    {
+      "id": 11,
+      "brand": "Burton",
+      "model": "Flying V",
+      "image": {
+        "main": "https://images.evo.com/imgp/700/196837/844217/burton-process-flying-v-snowboard-2022-.jpg",
+        "backup": "https://images.evo.com/imgp/700/196837/849285/burton-process-flying-v-snowboard-2022-.jpg"
+      },
+      "terrain": "All-Mountain",
+      "size": "156",
+      "shape": "Directional Twin",
+      "price": "529.95"
     }
   ]
 }
